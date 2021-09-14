@@ -20,5 +20,6 @@ export DOCKER_HOST="tcp://192.168.99.100:2376"
 export DOCKER_CERT_PATH="/Users/risawe/.docker/machine/machines/default"
 export DOCKER_MACHINE_NAME="default"
 # Run this command to configure your shell: 
-# eval $(docker-machine env)```
+# eval $(docker-machine env)
+```
 * Use the IP from DOCKER_HOST with your container's target port, http://192.168.99.100:3000 for example.
