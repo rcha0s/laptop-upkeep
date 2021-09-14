@@ -23,3 +23,5 @@ export DOCKER_MACHINE_NAME="default"
 # eval $(docker-machine env)
 ```
 * Use the IP from DOCKER_HOST with your container's target port, http://192.168.99.100:3000 for example.
+
+With `docker-compose up`, in case you get the error `docker.credentials.errors.InitializationError: docker-credential-desktop not installed or not available in PATH`, just make a minor change to credStore as given here - https://basiliocode.medium.com/error-docker-credential-desktop-not-installed-or-not-available-in-path-1e969f7bdfbc
