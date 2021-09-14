@@ -1,4 +1,4 @@
-#Setup Docker CLI on MacOS without Docker Desktop 
+# Setup Docker CLI on MacOS without Docker Desktop 
  
 Can't use Docker Desktop due to the recent license changes
 
