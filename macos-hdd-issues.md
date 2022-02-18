@@ -1,4 +1,4 @@
-# MacOS exFAT detection issue
+# MacOS exFAT Hard Drive detection issue
 
 - `diskutil list` - Check all the mounted/unmounted disks
 - `sudo diskutil mount /dev/disk2s1` or  `sudo diskutil unmount /dev/disk2s1` - try mounting or unmounting the disk
