@@ -1,6 +1,7 @@
-# Setup Docker CLI on MacOS without Docker Desktop 
- 
-Can't use Docker Desktop due to the recent license changes
+# Setup Docker CLI on MacOS without Docker Desktop using Docker Machine
+
+If you can't use Docker Desktop due to the recent license changes, delete the Docker Desktop App and use the method below which uses a virtual-box based docker engine VM created with docker-machine.
+Note: [Docker machine](https://github.com/docker/machine) has been deprecated.
 
 Steps (referenced from https://apple.stackexchange.com/a/373914):
 
